@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.env.*
+
+# Jupyter / Data
+.ipynb_checkpoints/
+*.csv
+*.xlsx
+
+# Flask / Logs
+instance/
+*.log
+
+# PHP / XAMPP
+*.bak
+*.sql
+*.zip
+
+# System
+.DS_Store
+Thumbs.db

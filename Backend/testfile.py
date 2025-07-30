@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 
 app = Flask(__name__)
 # Load the dataset
-data = pd.read_csv("D:\Coding\python\Mini Project Model\Dataset\Symptom2Disease.csv")  # Replace with your data file path
+data = pd.read_csv("Dataset\Symptom2Disease.csv")  # Replace with your data file path
 
 # Separate features (text descriptions) and target labels (disease names)
 X = data["text"]
